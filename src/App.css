@@ -1,0 +1,100 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.h-tag h2 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+#Search {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 100px);
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.loading,
+.error {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.error{
+    color: #ff0000;
+}
+.loading{
+    color: #007BFF;
+}
+
+.img {
+    margin-bottom: 10px;
+}
+
+.img img {
+    width: 150px;
+    height: 130px; 
+}
+.img h3,h4{
+    margin-top: 0;
+}
+.details {
+    text-align: left;
+}
+
+.details p {
+    margin: 10px 0;
+}
+
+.details .feel,
+.details .hu-wi,
+.details .log-lat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details .hu-wi img {
+    vertical-align: middle;
+}
+
+.details span,
+.details i {
+    font-style: normal;
+    font-weight: bold;
+}
